@@ -1,0 +1,128 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Container */
+.App {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 400px; /* Adjust width for responsiveness */
+  text-align: center;
+}
+
+/* Main heading */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Options container */
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Password length input */
+#passwordLength {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 50px;
+}
+
+/* Checkbox container */
+.row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Checkboxes */
+input[type="checkbox"] {
+  accent-color: #007bff; /* Checkbox color */
+}
+
+/* Checkbox labels */
+label {
+  font-size: 14px;
+}
+
+/* Generate password button */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0067cc; /* Darker shade on hover */
+}
+
+/* Password container */
+.password-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Password input */
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 70%;
+  font-size: 16px;
+}
+
+/* Copy button */
+.password-container button {
+  margin-top: 0;
+  background-color: #28a745; /* Green for copy action */
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.password-container button:hover {
+  background-color: #208f3c; /* Darker shade for copy hover */
+}
+
+p {
+  font-size: 12px;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.tips{
+  font-weight: bold;
+  text-align: left;
+  font-size: 12px;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.error {
+  color: crimson;
+  font-size: 12px;
+  margin-top: 20px;
+  line-height: 1.5;
+}
